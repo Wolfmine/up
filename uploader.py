@@ -1,4 +1,4 @@
-# dev by : @MutePuker
+# dev by : @upinfobot
 
 # -*- coding: utf-8 -*-
 import telebot
@@ -18,11 +18,11 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 redis = r.StrictRedis(host='localhost', port=6379, db=0,decode_responses=True)
-token = "TOKEN"
+token = "295074270:AAH2nqd3FqQdtjKiKNkHUqlxw8_6cMCK1Bc"
 -- YOUR TOKEB HERE :[
 bot = telebot.TeleBot(token)
 opizo_email = 'besthkrboy@gmail.com'
-start_msg = '*hi mr :) dev by : @MuteTeam and @MutePuker*'
+start_msg = '*hi mr :) dev by : @upinfobot and @wo_olfminer*'
 
 
 
@@ -76,7 +76,7 @@ def all(m):
             j = opeen.open(link)
             lin1 = j.read()
             bot.send_message(m.chat.id,'در حال آپلود فایل....')
-            bot.send_message(m.chat.id,'<b>تبریک فایل آپلود شد!</b>\n\n<b>لینک فایل شما:</b>\n{}\n\n<b>ساخته شده توسط:</b> \nMuteTeam | @MuteTeam'.format(lin1),parse_mode='HTML')
+            bot.send_message(m.chat.id,'<b>تبریک فایل آپلود شد!</b>\n\n<b>لینک فایل شما:</b>\n{}\n\n<b>ساخته شده توسط:</b> \nwolf | @wo_olfminer'.format(lin1),parse_mode='HTML')
   except:
    bot.send_message(m.chat.id,link1)
 
@@ -92,4 +92,4 @@ def rate(m):
 
 bot.polling(True)
 
-# dev by : @MutePuker
+# dev by : @upinfobot
